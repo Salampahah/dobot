@@ -18,7 +18,7 @@ from utils.password_generator import password_generator
 
 user_dict = {}
 
-t = '<b>Buat VPS</b>\n\n'
+t = '<b>Create VPS</b>\n\n'
 
 
 def create_droplet(d: Union[Message, CallbackQuery], data: dict = None):
@@ -228,7 +228,7 @@ def get_name(call: CallbackQuery, data: dict):
 
     msg = bot.edit_message_text(
         text=f'{_t}'
-             'Harap balas nama contoh: YogzVPS\n\n'
+             'Harap Buat nama Server nya Contoh:ServerWokszxdVps\n\n'
              '/back Sebelumnya',
         chat_id=call.from_user.id,
         message_id=call.message.message_id,
