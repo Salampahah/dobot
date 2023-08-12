@@ -30,6 +30,10 @@ def start(d: Message):
             text='Cek droplets',
             callback_data='manage_droplets'
         ),
+        InlineKeyboardButton(
+            text='‹ Back Menu ›',
+            callback_data='start'
+        ),
     )
     t = f'Selamat Datang <b>{bot_name}</b>\n\n' \
         'Anda Dapat Mengelola Akun DigitalOcean, membuat VPS, Dll.\n\n' \
