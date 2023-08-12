@@ -44,7 +44,9 @@ def start(d: Message):
         '/bath_do - batch test accounts\n' \
         '/add_vps - membuat droplets\n' \
         '/sett_vps - list droplets\n' \
-        ' \n'
+        ' \n'\
+        '<b>Dev: @wokszxd_rajing_mengaji</b>\n' \
+        '<b>Support: @WokszXDStore</b>'
     bot.send_message(
         text=t,
         chat_id=d.from_user.id,
